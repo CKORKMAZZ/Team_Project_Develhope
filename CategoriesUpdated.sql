@@ -1,15 +1,15 @@
---New Categories Added
+--New Categories Are Added
 INSERT INTO Categories (CategoryID,CategoryName,Description) VALUES
 (9,'Vegan','Does not contain any animal or animal-derived ...');
 
 INSERT INTO Categories (CategoryID,CategoryName,Description) VALUES
 (0,'Vegetables/Fruits','Raw or prepared vegetables and fruits');
 
---New Column Added
+--A New Column Added
 ALTER TABLE Categories
 ADD COLUMN NewCategoryID INTEGER;
 
---Category Names Updated
+--Category Names Are Updated
 UPDATE Categories
 SET CategoryName = 'Produce Dried'
 WHERE CategoryID = 7
@@ -18,7 +18,7 @@ UPDATE Categories
 SET CategoryName = 'Seafood/Seaweed'
 WHERE CategoryID = 8
 
---CategoryID's Assigned NewCategoryID's As Expected
+--CategoryID's Is Assigned NewCategoryID's As Expected
 UPDATE Categories
 SET NewCategoryID =
 (CASE
