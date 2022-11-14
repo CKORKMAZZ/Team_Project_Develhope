@@ -5,18 +5,18 @@ INSERT INTO Categories (CategoryID,CategoryName,Description) VALUES
 INSERT INTO Categories (CategoryID,CategoryName,Description) VALUES
 (0,'Vegetables/Fruits','Raw or prepared vegetables and fruits');
 
---A New Column Added
+--A New Column Is Added
 ALTER TABLE Categories
 ADD COLUMN NewCategoryID INTEGER;
 
 --Category Names Are Updated
 UPDATE Categories
 SET CategoryName = 'Produce Dried'
-WHERE CategoryID = 7
+WHERE CategoryID = 7;
 
 UPDATE Categories
 SET CategoryName = 'Seafood/Seaweed'
-WHERE CategoryID = 8
+WHERE CategoryID = 8;
 
 --CategoryID's Is Assigned NewCategoryID's As Expected
 UPDATE Categories
@@ -34,6 +34,6 @@ WHEN (CategoryID = 8) THEN 4
 WHEN (CategoryID = 9) THEN 9
 ELSE CategoryID
 END)
-WHERE CategoryID IS NOT NULL
+WHERE CategoryID IS NOT NULL;
 
 
