@@ -1,0 +1,128 @@
+ProductID,ProductName,SupplierID,CategoryID,QuantityPerUnit,UnitCost,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued
+1,Chai,1,1,10 boxes x 20 bags,15.3,18.0,39,0,10,0
+2,Chang,1,1,24 - 12 oz bottles,10.45,19.0,17,40,25,0
+3,Aniseed Syrup,1,2,12 - 550 ml bottles,5.6,10.0,13,70,25,0
+4,Chef Anton's Cajun Seasoning,2,2,48 - 6 oz jars,11.44,22.0,53,0,0,0
+5,Chef Anton's Gumbo Mix,2,2,36 boxes,17.29,21.35,0,0,0,1
+6,Grandma's Boysenberry Spread,3,2,12 - 8 oz jars,13.0,25.0,120,0,25,0
+7,Uncle Bob's Organic Dried Pears,3,7,12 - 1 lb pkgs.,21.0,30.0,15,0,10,0
+8,Northwoods Cranberry Sauce,3,2,12 - 12 oz jars,28.4,40.0,6,0,0,0
+9,Mishi Kobe Niku,4,6,18 - 500 g pkgs.,49.47,97.0,29,0,0,1
+10,Ikura,4,8,12 - 200 ml jars,17.36,31.0,31,0,0,0
+11,Queso Cabrales,5,4,1 kg pkg.,15.75,21.0,22,30,30,0
+12,Queso Manchego La Pastora,5,4,10 - 500 g pkgs.,30.78,38.0,86,0,0,0
+13,Konbu,6,8,2 kg box,5.16,6.0,24,0,5,0
+14,Tofu,6,7,40 - 100 g pkgs.,17.67,23.25,35,0,0,0
+15,Genen Shouyu,6,2,24 - 250 ml bottles,8.21,15.5,39,0,5,0
+16,Pavlova,7,3,32 - 500 g boxes,12.91,17.45,29,0,10,0
+17,Alice Mutton,7,6,20 - 1 kg tins,26.91,39.0,0,0,0,1
+18,Carnarvon Tigers,7,8,16 kg pkg.,43.75,62.5,42,0,0,0
+19,Teatime Chocolate Biscuits,8,3,10 boxes x 12 pieces,5.43,9.2,25,0,5,0
+20,Sir Rodney's Marmalade,8,3,30 gift boxes,50.22,81.0,40,0,0,0
+21,Sir Rodney's Scones,8,3,24 pkgs. x 4 pieces,8.4,10.0,3,40,5,0
+22,Gustaf's Knäckebröd,9,5,24 - 500 g pkgs.,15.12,21.0,104,0,25,0
+23,Tunnbröd,9,5,12 - 250 g pkgs.,5.58,9.0,61,0,25,0
+24,Guaraná Fantástica,10,1,12 - 355 ml cans,2.25,4.5,20,0,0,1
+25,NuNuCa Nuß-Nougat-Creme,11,3,20 - 450 g glasses,12.32,14.0,76,0,30,0
+26,Gumbär Gummibärchen,11,3,100 - 250 g bags,26.86,31.23,15,0,0,0
+27,Schoggi Schokolade,11,3,100 - 100 g pieces,40.39,43.9,49,0,30,0
+28,Rössle Sauerkraut,12,7,25 - 825 g cans,25.54,45.6,26,0,0,1
+29,Thüringer Rostbratwurst,12,6,50 bags x 30 sausgs.,90.37,123.79,0,0,0,1
+30,Nord-Ost Matjeshering,13,8,10 - 200 g glasses,21.75,25.89,10,0,15,0
+31,Gorgonzola Telino,14,4,12 - 100 g pkgs,7.62,12.5,0,70,20,0
+32,Mascarpone Fabioli,14,4,24 - 200 g pkgs.,28.8,32.0,9,40,25,0
+33,Geitost,15,4,500 g,1.73,2.5,112,0,20,0
+34,Sasquatch Ale,16,1,24 - 12 oz bottles,10.92,14.0,111,0,15,0
+35,Steeleye Stout,16,1,24 - 12 oz bottles,14.76,18.0,20,0,15,0
+36,Inlagd Sill,17,8,24 - 250 g  jars,15.77,19.0,112,0,20,0
+37,Gravad lax,17,8,12 - 500 g pkgs.,15.6,26.0,11,50,25,0
+38,Côte de Blaye,18,1,12 - 75 cl bottles,226.61,263.5,17,0,15,0
+39,Chartreuse verte,18,1,750 cc per bottle,11.34,18.0,69,0,5,0
+40,Boston Crab Meat,19,8,24 - 4 oz tins,12.7,18.4,123,0,30,0
+41,Jack's New England Clam Chowder,19,8,12 - 12 oz cans,8.2,9.65,85,0,10,0
+42,Singaporean Hokkien Fried Mee,20,5,32 - 1 kg pkgs.,12.46,14.0,26,0,0,1
+43,Ipoh Coffee,20,1,16 - 500 g tins,29.9,46.0,17,10,25,0
+44,Gula Malacca,20,2,20 - 2 kg bags,13.03,19.45,27,0,15,0
+45,Rogede sild,21,8,1k pkg.,8.84,9.5,5,70,15,0
+46,Spegesild,21,8,4 - 450 g glasses,10.32,12.0,95,0,0,0
+47,Zaanse koeken,22,3,10 - 4 oz boxes,6.75,9.5,36,0,0,0
+48,Chocolade,22,3,10 pkgs.,9.82,12.75,15,70,25,0
+49,Maxilaku,23,3,24 - 50 g pkgs.,12.8,20.0,10,60,15,0
+50,Valkoinen suklaa,23,3,12 - 100 g bars,11.21,16.25,65,0,30,0
+51,Manjimup Dried Apples,24,7,50 - 300 g pkgs.,28.09,53.0,20,0,10,0
+52,Filo Mix,24,5,16 - 2 kg boxes,5.88,7.0,38,0,25,0
+53,Perth Pasties,24,6,48 pieces,23.29,32.8,0,0,0,1
+54,Tourtière,25,6,16 pies,4.17,7.45,21,0,10,0
+55,Pâté chinois,25,6,24 boxes x 2 pies,17.76,24.0,115,0,20,0
+56,Gnocchi di nonna Alice,26,5,24 - 250 g pkgs.,35.34,38.0,21,10,30,0
+57,Ravioli Angelo,26,5,24 - 250 g pkgs.,15.21,19.5,36,0,20,0
+58,Escargots de Bourgogne,27,8,24 pieces,12.19,13.25,62,0,20,0
+59,Raclette Courdavault,28,4,5 kg pkg.,51.15,55.0,79,0,0,0
+60,Camembert Pierrot,28,4,15 - 300 g rounds,25.16,34.0,19,0,0,0
+61,Sirop d'érable,29,2,24 - 500 ml bottles,25.93,28.5,113,0,25,0
+62,Tarte au sucre,29,3,48 pies,26.62,49.3,17,0,0,0
+63,Vegie-spread,7,2,15 - 625 g jars,21.95,43.9,24,0,5,0
+64,Wimmers gute Semmelknödel,12,5,20 bags x 4 pieces,26.93,33.25,22,80,30,0
+65,Louisiana Fiery Hot Pepper Sauce,2,2,32 - 8 oz bottles,11.79,21.05,76,0,0,0
+66,Louisiana Hot Spiced Okra,2,2,24 - 8 oz jars,12.75,17.0,4,100,20,0
+67,Laughing Lumberjack Lager,16,1,24 - 12 oz bottles,12.32,14.0,52,0,10,0
+68,Scottish Longbreads,8,3,10 boxes x 8 pieces,11.25,12.5,6,10,15,0
+69,Gudbrandsdalsost,15,4,10 kg pkg.,27.36,36.0,26,0,15,0
+70,Outback Lager,7,1,24 - 355 ml bottles,7.65,15.0,15,10,30,0
+71,Flotemysost,15,4,10 - 500 g pkgs.,10.75,21.5,26,0,0,0
+72,Mozzarella di Giovanni,14,4,24 - 200 g pkgs.,20.18,34.8,14,0,0,0
+73,Röd Kaviar,17,8,24 - 150 g jars,10.95,15.0,101,0,5,0
+74,Longlife Tofu,4,7,5 kg pkg.,8.4,10.0,4,20,5,0
+75,Rhönbräu Klosterbier,12,1,24 - 0.5 l bottles,6.36,7.75,125,0,25,0
+76,Lakkalikööri,23,1,500 ml,16.56,18.0,57,0,20,0
+77,Original Frankfurter grüne Soße,12,2,12 boxes,7.54,13.0,32,0,15,0
+78,Brown eggs,2,dairy,12 - 250 g pkgs.,25.85,28.1,39,30,5,0
+79,Sweet fresh stawberry,27,fruit,10 kg pkg.,26.5,29.45,39,40,10,0
+80,Asparagus,29,vegetable,24 - 250 g  jars,15.92,18.95,36,0,30,0
+81,Green smoothie,9,dairy,24 - 500 ml bottles,12.73,17.68,3,40,5,0
+82,Raw legums,24,vegetable,24 pieces,14.54,17.11,38,30,30,0
+83,Baking cake,16,dairy,12 - 100 g bars,8.69,11.14,49,40,0,0
+84,Pesto with basil,11,vegetable,12 - 12 oz cans,11.28,18.19,10,50,0,0
+85,Hazelnut in black ceramic bowl,20,vegetable,16 pies,23.79,27.35,13,100,15,0
+86,Fresh stawberry,23,fruit,20 bags x 4 pieces,26.59,28.59,120,70,5,0
+87,Lemon and salt,5,fruit,25 - 825 g cans,14.05,15.79,57,100,25,0
+88,Homemade bread,10,bakery,48 pieces,13.81,17.48,115,30,15,0
+89,Legums,16,vegetable,20 - 1 kg tins,8.57,14.77,111,80,20,1
+90,Fresh tomato,9,vegetable,12 - 12 oz cans,15.16,16.3,32,20,20,0
+91,Healthy breakfast,11,fruit,32 - 500 g boxes,7.42,13.02,3,50,0,0
+92,Green beans,0,vegetable,50 - 300 g pkgs.,22.74,28.79,24,30,20,0
+93,Baked stuffed portabello mushrooms,1,bakery,15 - 300 g rounds,17.47,20.31,25,100,5,0
+94,Strawberry jelly,11,fruit,24 - 250 g  jars,10.92,14.18,32,0,0,0
+95,Pears juice,9,fruit,50 - 300 g pkgs.,17.15,19.49,32,40,0,0
+96,Fresh pears,26,fruit,32 - 8 oz bottles,9.68,15.12,65,80,10,0
+97,Caprese salad,12,vegetable,32 - 8 oz bottles,9.05,16.76,10,60,30,0
+98,Oranges,18,fruit,24 - 355 ml bottles,16.75,21.48,79,40,0,0
+99,Vegan food,28,vegetable,2 kg box,23.43,29.66,35,60,30,0
+100,Breakfast with muesli,20,dairy,12 - 550 ml bottles,17.25,22.7,123,40,30,0
+101,Honey,21,bakery,100 - 100 g pieces,8.51,17.01,95,60,20,0
+102,Breakfast with cottage,29,fruit,12 - 355 ml cans,13.07,14.05,4,0,25,0
+103,Strawberry smoothie,30,fruit,18 - 500 g pkgs.,17.89,28.86,53,100,25,0
+104,Strawberry and mint,7,fruit,30 gift boxes,23.33,26.21,57,40,30,0
+105,Ricotta,13,dairy,24 - 4 oz tins,16.69,27.81,3,40,5,0
+106,Cuban sandwiche,7,bakery,12 - 100 g bars,16.09,18.5,62,50,15,0
+107,Granola,7,dairy,20 - 450 g glasses,26.07,29.97,101,80,25,0
+108,Smoothie with chia seeds,19,fruit,15 - 625 g jars,21.98,25.26,14,40,20,0
+109,Yogurt,3,dairy,48 pieces,13.8,27.61,14,50,25,0
+110,Sandwich with salad,7,vegetable,500 ml,12.81,22.48,115,100,5,0
+111,Cherry,5,fruit,15 - 300 g rounds,8.61,14.35,52,30,0,0
+112,Raw asparagus,23,vegetable,15 - 300 g rounds,12.63,22.97,38,20,30,1
+113,Corn,3,vegetable,12 - 12 oz cans,12.33,13.55,123,10,15,1
+114,Vegan,16,vegan,500 ml,17.09,28.96,29,20,15,0
+115,Fresh blueberries,17,fruit,50 bags x 30 sausgs.,19.54,21.01,42,20,25,0
+116,Smashed avocado,9,fruit,24 - 250 g pkgs.,15.53,25.88,24,70,10,0
+117,Italian ciabatta,13,bakery,20 - 1 kg tins,12.3,15.18,113,30,0,0
+118,Rustic breakfast,14,dairy,10 - 4 oz boxes,15.99,21.32,95,60,15,1
+119,Sliced lemons,16,fruit,24 - 250 ml bottles,18.46,27.14,13,20,25,0
+120,Plums,17,fruit,20 bags x 4 pieces,17.45,19.18,20,80,20,0
+121,French fries,28,bakery,24 - 250 g pkgs.,16.12,18.32,101,30,25,0
+122,Strawberries,29,fruit,1k pkg.,13.62,15.13,76,30,15,1
+123,Ground beef meat burger,30,meat,16 - 2 kg boxes,6.92,11.73,120,50,10,0
+124,Tomatoes,3,fruit,100 - 100 g pieces,23.69,26.03,24,100,0,0
+125,Basil,12,vegetable,12 - 1 lb pkgs.,12.0,15.19,19,60,10,0
+126,Fruits bouquet,10,fruit,10 boxes x 12 pieces,14.0,18.18,21,30,0,0
+127,Peaches on branch,26,fruit,15 - 625 g jars,18.45,25.62,10,80,5,0
