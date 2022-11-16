@@ -14,4 +14,4 @@ Structure of the database that are worked on can be seen below.
 
 ![image](https://user-images.githubusercontent.com/108662660/201652325-bb9d7c72-9fc1-4be3-9447-c34bcef1e8ee.png)
 
-To solve data inconsistencies, **SQL** is used. The used queries can be found in the file **"CategoryUpdated.sql".**  
+To solve data inconsistencies, **SQL** is used. The used queries can be found in the file **"Query for Category Normalization.sql".**  
