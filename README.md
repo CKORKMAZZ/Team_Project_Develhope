@@ -22,7 +22,7 @@ To solve data inconsistencies, **SQL** is used. The used queries can be found in
 
 **DATA ANALYSIS**
 
-There are some analysis that need to be held for groceries wholesaler: 
+There are some analyses that need to be held for groceries wholesaler: 
 
 **1)** Which is / are the top suppliers (we have more products in stock) of Confections products?
 
