@@ -1,4 +1,4 @@
-# Team Project Develhope
+# **Develhope Team Project**
 
 **Important Note**: This project is being carried out together with the Develhope Community!
 
