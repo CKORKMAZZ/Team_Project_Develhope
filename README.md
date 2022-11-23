@@ -4,6 +4,8 @@
 
 ## TASK 1
 
+**DATA ENGINEERING**
+
 The supermarket has recently added more information to that database. However, these new added products are not related with theirs category relationship.
 The name of the products have been added instead of their IDs into the database. 
 
@@ -18,7 +20,8 @@ To solve data inconsistencies, **SQL** is used. The used queries can be found in
 
 ## TASK 2
 
-Data Analysis
+**DATA ANALYSIS**
+
 There are some analysis that need to be held for groceries wholesaler: 
 
 **1)** Which is / are the top suppliers (we have more products in stock) of Confections products?
