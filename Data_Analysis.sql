@@ -1,3 +1,24 @@
+--First Task, Top Supplier Confections
+
+SELECT
+C.CategoryName,
+SUM(P.UnitsInStock) AS Stock,
+S.CompanyName
+
+FROM
+Products P
+LEFT JOIN Categories C ON C.CategoryID=P.CategoryID
+LEFT JOIN Suppliers S ON S.SupplierID=P.SupplierID
+WHERE C.CategoryName="Confections"
+
+GROUP BY
+C.CategoryName,
+S.CompanyName
+
+ORDER BY
+SUM(P.UnitsInStock) DESC
+
+
 --To Find Which Is The Most Popular (Purchased) Product In Berlin?
 
 WITH first_total_quantity AS (
