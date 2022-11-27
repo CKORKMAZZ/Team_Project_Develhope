@@ -1,8 +1,5 @@
-<<<<<<< HEAD
---Top Suppliers Confections Query
-=======
---First Task, Top Supplier Confections
->>>>>>> f947e2fc679ef5460157b7e900619d9b590d09ab
+--To Find Top Supplier In Confections Category
+
 
 SELECT
 C.CategoryName,
@@ -23,10 +20,6 @@ ORDER BY
 SUM(P.UnitsInStock) DESC
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f947e2fc679ef5460157b7e900619d9b590d09ab
 --To Find Which Is The Most Popular (Purchased) Product In Berlin?
 
 WITH first_total_quantity AS (
