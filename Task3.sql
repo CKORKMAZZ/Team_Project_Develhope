@@ -42,9 +42,6 @@ SET CustomerID = UPPER(SUBSTRING(ShipName,1,3) || LTRIM(SUBSTRING(ShipName,INSTR
 
 
 
-ROLLBACK
-
-
 -- DATA ANALYSIS --
 --1--
 --To Find Where (cities) Are Sold The Products Supplied By Our Top Supplier?
