@@ -21,6 +21,7 @@ Structure of the database that are worked on can be seen below.
 To solve data inconsistencies, **SQL** is used. The used queries can be found in the file **"Query for Category Normalization.sql".**  
 
 
+
 ## TASK 2
 
 **DATA ANALYSIS**
@@ -34,4 +35,5 @@ There are some analyses that need to be held for groceries wholesaler:
 **3)** The company Maison Dewey complained about having a bad experience with all its orders, what are the telephone numbers of the shippers that carried the products?
 
 **4)** The company does not have enough employees to attend all the orders, and given that the company has signed a new big contract with a customer from Brazil, should the company hire a new employee in America, Europe or it does not matter?
+
 

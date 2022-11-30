@@ -1,13 +1,14 @@
--Securing old data just in case
+--A New Column Is Added To Ensure That Previous IDs Are Stored
 ALTER TABLE Products
 ADD COLUMN Old_CategoryID
 INTEGER;
 
+--Previous Category IDs Are Assigned To A New Created Column
 UPDATE
 Products
-SET Old_CategoryID=CategoryID
+SET Old_CategoryID=CategoryID;
 
---I wanna look which CategoryID's we have
+--To Observe What We Have
 SELECT
 CategoryID
 FROM
@@ -15,9 +16,8 @@ Products
 GROUP BY
 CategoryID
 
---Update CategoryID correction in Product table
-UPDATE
-Products
+--CategoryID's Are Assigned NewCategoryID's As Expected
+UPDATE Products
 SET CategoryID=
 CASE
 WHEN CategoryID='bakery' THEN 5
@@ -29,7 +29,7 @@ WHEN CategoryID='vegetable' THEN 'No Category, New ID=1'
 ELSE CategoryID
 END 
 
---Update CategoryID correction in Product table
+--CategoryID's Are Assigned NewCategoryID's As Expected
 UPDATE  Products
 SET
 CategoryID=
@@ -90,7 +90,6 @@ WHEN (Old_CategoryID = 7) THEN 8
 WHEN (Old_CategoryID = 8) THEN 4
 WHEN (Old_CategoryID = 9) THEN 9
 ELSE Old_CategoryID
-END)
-;
+END);
 
 
