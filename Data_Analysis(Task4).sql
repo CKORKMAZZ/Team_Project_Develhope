@@ -1,3 +1,5 @@
+-- Creating new (Supplies) table with references.
+
 CREATE TABLE "Supplies" (
     "SupplyOrderID"    INTEGER NOT NULL UNIQUE,
     "SupplierID"    INTEGER NOT NULL,
