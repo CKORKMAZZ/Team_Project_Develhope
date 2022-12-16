@@ -4253,3 +4253,7 @@ INSERT INTO Products VALUES (125,'Basil',12,10,'12 - 1 lb pkgs.',12.0,15.19,19,6
 INSERT INTO Products VALUES (126,'Fruits bouquet',10,10,'10 boxes x 12 pieces',14.0,18.18,21,30,0,0);
 INSERT INTO Products VALUES (127,'Peaches on branch',26,10,'15 - 625 g jars',18.45,25.62,10,80,5,0);
 COMMIT;
+
+
+
+

@@ -89,6 +89,3 @@ FROM
 	ON s.SupplierID = p.SupplierID
 ORDER BY 
 	2 ASC;
-
-	
-	
