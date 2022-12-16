@@ -1,48 +1,41 @@
 --DATA ENGINEERING --
---To Assign Random Value For Each Duplicated Values
+--To Assign Consequent Values For Each Duplicated Values
 
-with duplicated AS (
-SELECT 
-	CustomerID 
+with new_customer_ids AS(
+SELECT
+	CustomerID || ROW_NUMBER() OVER (PARTITION BY o.CustomerID ORDER BY o.CustomerID ASC) AS new_customer_id,
+	SUBSTRING((CustomerID || ROW_NUMBER() OVER (PARTITION BY o.CustomerID ORDER BY o.CustomerID ASC)),-1,1) AS last_character
 FROM 
 	Orders o
-GROUP BY
-	1
-HAVING 
-	COUNT(CustomerID) > 1
-ORDER BY
-	CustomerID ASC),
-duplicated_rank AS (
-SELECT 
-	ROW_NUMBER() OVER (PARTITION BY o2.CustomerID ORDER BY o2.CustomerID ASC) AS row_number_func,
-	o2.CustomerID as CustomerID
-FROM 
-	duplicated d JOIN
-	Orders o2 ON d.CustomerID = o2.CustomerID 
 )
 
-UPDATE duplicated_rank
-SET CustomerID = CustomerID || (SELECT (ABS(RANDOM() % (20))))
-WHERE row_number_func > 1
+SELECT
+	CASE
+	WHEN last_character = "1" THEN SUBSTRING(new_customer_id,1,LENGTH(new_customer_id)-1)
+	ELSE new_customer_id
+	END,
+	last_character
+FROM
+	new_customer_ids
+
+
 
 
 --To Check Identification For Each CustomerID
 
 with wrong_identified as (
 SELECT 
-	CustomerID
+	CustomerID,
+	ShipName 
 FROM 
 	Orders o
 WHERE 
- 	UPPER(SUBSTRING(ShipName,1,3) || LTRIM(SUBSTRING(ShipName,INSTR(ShipName,' '),3))) || '1' != CustomerID 
+ 	UPPER(SUBSTRING(ShipName,1,3) || LTRIM(SUBSTRING(ShipName,INSTR(ShipName,' '),3))) != CustomerID 
 )	
 
 UPDATE Orders 
 SET CustomerID = UPPER(SUBSTRING(ShipName,1,3) || LTRIM(SUBSTRING(ShipName,INSTR(ShipName,' '),3)))
 
-
-
-ROLLBACK
 
 
 -- DATA ANALYSIS --
@@ -51,8 +44,8 @@ ROLLBACK
 with rank_of_units AS (
 SELECT 
 	s.SupplierID,
-	COUNT(p.UnitsInStock),
-	DENSE_RANK() OVER (ORDER BY COUNT(p.UnitsInStock) DESC) AS rank_of_units_in_stock
+	SUM(p.UnitsInStock),
+	DENSE_RANK() OVER (ORDER BY SUM(p.UnitsInStock) DESC) AS rank_of_units_in_stock
 FROM 
 	Suppliers s
 	JOIN Products p
@@ -97,5 +90,5 @@ FROM
 ORDER BY 
 	2 ASC;
 
-	
-	
+
+
