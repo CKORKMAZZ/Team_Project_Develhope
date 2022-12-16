@@ -85,10 +85,6 @@ END //
 CALL Geospatial('Berlin',@v_city);
 
 
-
-
-
-
 #2
 #If the date of the transaction is no more than 30 days from the inputted date, refundable will be set to 1, otherwise it will be set to 0!   
 DELIMITER //
